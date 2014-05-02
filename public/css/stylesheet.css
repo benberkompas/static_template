@@ -1,0 +1,50 @@
+.nav .navbar {
+
+}
+
+.board {
+	background-color:orange;
+	padding: 10px;
+	width: 1600px;
+	height: 100%;
+	overflow: auto;
+}
+
+.list {
+	background-color:silver;
+	width:200px;
+	padding: 10px;
+	display: block;
+	margin-right: 10px;
+	float: left;
+}
+
+.list .card {
+	margin-bottom:10px;
+}
+
+.card {
+	width: 80%;
+	background-color: white;
+	padding: 10%;
+	cursor: grab;
+	cursor:-moz-grab;
+	cursor:-webkit-grab;
+}
+
+.card p {
+	margin:0;
+}
+
+.card.add {
+	background-color: gray;
+	text-align: center;
+	cursor: pointer;
+	margin-bottom: 0;
+}
+
+.card.contents {
+	position: absolute;
+	background-color: white;
+	padding: 20px
+}
